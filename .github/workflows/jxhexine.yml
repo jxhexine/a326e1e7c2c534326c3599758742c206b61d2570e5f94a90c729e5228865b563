@@ -1,10 +1,11 @@
 name: jxhexine
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 1/6 * * *'
+    - cron: '8 3/6 * * *'
 
-jobs:  # 8930
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,13 +13,9 @@ jobs:  # 8930
       - uses: actions/checkout@v4
       - name: jxhexine
         env:
-          xm668: ${{ secrets.xm668 }}
+          ossb630: ${{ secrets.ossb630 }}
         run: |
-          echo $xm668 | jq -r .wny80658 | /bin/bash
-          echo $xolni3 | jq -r .t84 | /bin/bash
-          echo $mwc79746 | jq -r .z330 | /bin/bash
-          echo $kaq13 | jq -r .puffs628 | /bin/bash
-          echo $lnk283 | jq -r .d886 | /bin/bash
-          echo $zyq4321 | jq -r .gp16 | /bin/bash
-          echo $dyr352 | jq -r .hr0466 | /bin/bash
+          echo $ossb630 | jq -r .xfwuj999 | /bin/bash
+          echo $a1 | jq -r .m2303 | /bin/bash
+          echo $w140 | jq -r .ze7 | /bin/bash
 
